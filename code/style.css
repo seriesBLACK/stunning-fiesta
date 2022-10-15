@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(1, 1, 27);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: blanchedalmond;
+    margin: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.navigation a:hover {
+    color: burlywood;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(file/hey-boy.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: lightgoldenrodyellow;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: orange;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: lightyellow;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.main-potton {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 30px;
+    color: bisque;
+    background-color: rgb(62, 62, 149);
+    font-size: 1.1em;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+
+.main-potton:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    display: inline-block;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 1.7em;
+    transition: 0.5s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.titlee {
+    display: flex;
+    justify-content: center;
+    color: rgb(76, 43, 107);
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.content {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /25%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    font-size: 8em;
+    text-align: center;
+    color: rgb(85, 52, 52);
+    margin-top: 25px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: burlywood;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.projects {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background: url(file/img-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.5s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-catgory {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.more-details {
+    text-decoration: none;
+    color: rgb(21, 93, 93);
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.more-details:hover {
+    color: rgb(6, 50, 50);
+}
+
+.projects .titlee {
+    color: hsl(240, 6%, 72%);
+}
+
+.content1 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+
+}
+
+.card1 {
+    padding: 80px;
+    background-color: rgb(191, 202, 198);
+    box-shadow: 0 5px 25px rgba(1 1 1 /25%);
+    margin: 15px;
+    border-radius: 25px;
+    width: 21.25em;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(85, 52, 52);
+    padding: 10px 80px;
+}
+
+.End p {
+    color: rgb(169, 159, 145);
+    font-weight: 200;
+}
+
+.End a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.lets-go {
+    color: rgb(169, 159, 145);
+    font-weight: 200;
+}
+
+.End i {
+    color: #fff;
+}
+
+@media (max-width:810px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    .navigation {
+        margin: 2px;
+        font-size: 0.8em;
+    }
+
+    section {
+        padding: 50px 20px;
+    }
+
+    footer {
+        padding: 10px 15px;
+        font-size: 0.7em;
+
+    }
+
+}
